@@ -8,12 +8,72 @@
   <div class="top-navbar fancy-color">
     {% include header.html %}
   </div>
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
 
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-9">
+            {{ content }}
+          </div>
+          <div class="col-sm-4 col-md-3">
+          
+            <!-- BEGIN SIDEBAR -->
+            <div class="section sidebar">
+              
+              <!-- Begin Categories -->
+              <div class="panel panel-no-border panel-sidebar">
+                <div class="panel-heading">
+                <h3 class="panel-title">Categories</h3>
+                </div>
+                 <!-- List group -->
+                <div class="list-group">
+                  <a href="#fakelink" class="list-group-item">Lorem ipsum dolor (15)</a>
+                  <a href="#fakelink" class="list-group-item">Consectetur adipisicing elit  (10)</a>
+                  <a href="#fakelink" class="list-group-item">Repudiandae iste deleniti  (5)</a>
+                  <a href="#fakelink" class="list-group-item">Illum mollitia culpa  (35)</a>
+                  <a href="#fakelink" class="list-group-item">Aliquid facilis possimus  (33)</a>
+                </div>
+              </div><!-- /.panel panel-no-border panel-sidebar -->
+              <!-- End Categories -->
+              
+              <!-- Begin tags -->
+              <div class="panel panel-no-border panel-sidebar">
+                <div class="panel-heading">
+                <h3 class="panel-title">Tags</h3>
+                </div>
+                <div class="tags-content">
+                <a href="#fakelink"><span class="label label-warning">website</span></a>
+                <a href="#fakelink"><span class="label label-warning">web design</span></a>
+                <a href="#fakelink"><span class="label label-warning">HTML</span></a>
+                <a href="#fakelink"><span class="label label-warning">bootstrap</span></a>
+                <a href="#fakelink"><span class="label label-warning">CSS</span></a>
+                <a href="#fakelink"><span class="label label-warning">javascript</span></a>
+                <a href="#fakelink"><span class="label label-warning">vector</span></a>
+                <a href="#fakelink"><span class="label label-warning">PSD</span></a>
+                <a href="#fakelink"><span class="label label-warning">themeforest</span></a>
+                <a href="#fakelink"><span class="label label-warning">envato</span></a>
+                <a href="#fakelink"><span class="label label-warning">mobile</span></a>
+                <a href="#fakelink"><span class="label label-warning">responsive</span></a>
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel panel-no-border panel-sidebar -->
+              <!-- End tags -->
+              
+              <!-- BEGIN BANNER -->
+              <a href="#fakelink">
+              <img src="/img/work/work.jpg" alt="Banner" class="banner">
+              </a>
+              <a href="#fakelink">
+              <img src="/img/work/work.jpg" alt="Banner" class="banner">
+              </a>
+              <!-- END BANNER -->
+              
+            </div><!-- /.section -->
+            <!-- END SIDEBAR -->
+            
+          </div><!-- /.col-sm-4 col-md-3 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    
     {% include footer.html %}
 
   </body>
