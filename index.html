@@ -3,14 +3,14 @@ layout: default
 ---
 
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- <h1 class="page-heading">Posts</h1> -->
 <!-- BLOG LIST SECTION -->
             <div class="section">
                <ul class="media-list blog-list">
                 {% for post in site.posts %}
                 <li class="media">
                 <a class="pull-left" href="{{ post.url | prepend: site.baseurl }}">
-                  <img class="media-object img-post" src="/img/photo/small/img.jpg" alt="Image">
+                  <img class="media-object img-post" src="{{ post.image }}" alt="Image">
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">
@@ -22,10 +22,7 @@ layout: default
                     Posted on <a href="#fakelink">{{ post.date | date: "%b %-d, %Y" }}</a> by <a href="#fakelink">Mestre de Obra</a>
                   </p>
                   <p>
-                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod 
-                    mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in 
-                    iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius 
-                    quod ii legunt saepius. Claritas est etiam processus dynamicus, ...
+                   {{post.description}}
                   </p>
                 </div><!-- /.media-body -->
                 </li>
