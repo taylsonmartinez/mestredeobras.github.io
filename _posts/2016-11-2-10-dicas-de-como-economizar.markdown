@@ -2,7 +2,7 @@
 layout: post
 title:  "10 DICAS DE COMO ECONOMIZAR COM MATERIAL DE CONSTRUÇÃO"
 date:   2016-10-20 14:37:24
-image: '/img/image-2.jpg'
+image: '/img/blog/10-dicas-de-como-economizar.jpg'
 author: Mestre de Obra
 description: "Construir ou reformar um imóvel é uma tarefa um tanto complicada. Afinal, as reformas ou construções fazem muita bagunça. Porém o que mais preocupa é questão do preço dos materiais de construção. É preciso gastar uma certa quantia em materiais para que a reformar ou construção saia exatamente como desejamos, separamos 10 dicas infalíveis de como economizar com material de construção."
 tags:
